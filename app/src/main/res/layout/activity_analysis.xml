@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Analysis">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <Button
+        android:id="@+id/apriori"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="getApriori"
+        android:text="Crop Recommendations \n(फसल की सिफारिशें)"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="1"
+            android:background="#c0c0c0"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".8"
+            android:background="#c0c0c0"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".6"
+            android:background="#c0c0c0"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#c0c0c0"/>
+
+    <Button
+        android:id="@+id/regression"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:background="@color/material900Green"
+        android:onClick="getRegression"
+        android:text="Price Prediction\n(मूल्य की भविष्यवाणी)"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apriori"
+        app:layout_constraintVertical_bias="0.075" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="1"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".8"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".6"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".4"
+        android:background="#c0c0c0"/>
+</LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

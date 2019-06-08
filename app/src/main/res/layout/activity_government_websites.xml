@@ -1,0 +1,219 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GovernmentWebsites">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".4"
+                    android:background="#c0c0c0" />
+
+                <Button
+                    android:id="@+id/home_agricoop"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/acfw"
+                    android:elevation="100dp"
+                    android:onClick="onAgricoop"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:theme="@style/MyButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="1"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".8"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".6"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".4"
+                    android:background="#c0c0c0"/>
+
+                <Button
+                    android:id="@+id/home_agriculture"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/afw"
+                    android:onClick="onAgriculture"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_agricoop" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="1"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".8"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".6"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".4"
+                    android:background="#c0c0c0"/>
+
+                <Button
+                    android:id="@+id/home_agmarknet"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/agmarknet"
+                    android:onClick="onAgmarknet"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_agriculture" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="1"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".8"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".6"
+                    android:background="#c0c0c0"/>
+
+                <Button
+                    android:id="@+id/farmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/farmersportal"
+                    android:onClick="onFarmer"
+                    android:textColor="@color/mb_blue_dark"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/home_agmarknet"
+                    app:layout_constraintVertical_bias="0.024" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="1"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".8"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".6"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".4"
+                    android:background="#c0c0c0"/>
+
+                <Button
+                    android:id="@+id/state"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/stategov"
+                    android:backgroundTint="@color/material850Green"
+                    android:onClick="onState"
+                    android:text="State Government Websites\n(राज्य सरकार की वेबसाइटें)"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/farmer"
+                    app:layout_constraintVertical_bias="0.075" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="1"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".8"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".6"
+                    android:background="#c0c0c0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".4"
+                    android:background="#c0c0c0"/>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
+

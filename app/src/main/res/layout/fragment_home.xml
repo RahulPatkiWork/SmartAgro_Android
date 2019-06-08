@@ -1,0 +1,313 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#9ed1fa"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp">
+
+        <ImageView
+            android:id="@+id/home_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/material100Green"
+            android:onClick="onAnalysis"
+            android:scaleType="centerCrop"
+            android:src="@drawable/analysis" />
+
+        <TextView
+            android:id="@+id/english_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWhiteTrasparent"
+            android:gravity="center"
+            android:text="Recommendations and Predictions \n(सिफारिशों और भविष्यवाणी)"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="1"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".8"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".6"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".4"
+        android:background="#c0c0c0"/>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#9ed1fa"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp">
+
+        <ImageView
+            android:id="@+id/home_production"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/material100Green"
+            android:onClick="onProduction"
+            android:scaleType="centerCrop"
+            android:src="@drawable/production" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWhiteTrasparent"
+            android:gravity="center"
+            android:text="Crop Details and Production\n(फसल विवरण और उत्पादन)"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.CardView>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:alpha="1"
+    android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".8"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".6"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".4"
+        android:background="#c0c0c0"/>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#9ed1fa"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp">
+
+        <ImageView
+            android:id="@+id/home_treatment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/material100Green"
+            android:onClick="onTreatment"
+            android:scaleType="centerCrop"
+            android:src="@drawable/treat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWhiteTrasparent"
+            android:gravity="center"
+            android:text="Crop Treatment Methods\n(फसल उपचार विधि)"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="1"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".8"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".6"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".4"
+        android:background="#c0c0c0"/>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#9ed1fa"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp">
+
+        <ImageView
+            android:id="@+id/schemes"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/material100Green"
+            android:onClick="onSchemes"
+            android:scaleType="centerCrop"
+            android:src="@drawable/schemes" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWhiteTrasparent"
+            android:gravity="center"
+            android:text="Government Schemes\n(सरकारी योजनाएं)"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="1"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".8"
+        android:background="#c0c0c0"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".6"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".4"
+        android:background="#c0c0c0"/>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#9ed1fa"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp">
+
+        <ImageView
+            android:id="@+id/websites"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/material100Green"
+            android:onClick="onWebsites"
+            android:scaleType="centerCrop"
+            android:src="@drawable/websites" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWhiteTrasparent"
+            android:gravity="center"
+            android:text="Government Websites\n(सरकारी वेबसाइटें)"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="1"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".8"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".6"
+        android:background="#c0c0c0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".4"
+        android:background="#c0c0c0"/>
+</LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
+

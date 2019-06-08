@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#083050</color>
+    <color name="colorAccent">#6184d8</color>
+
+    <color name="bg1">#AAD4E5F7</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteTrasparent">#AA041D3C</color>
+
+    <!--Material Greens-->
+    <!--In between colors were created with this tool:-->
+    <!-- http://meyerweb.com/eric/tools/color-blend/#339999::1:hex -->
+    <color name="material100Green">#DBE0F6</color>
+    <color name="material700Green">#085006</color>
+    <color name="material750Green">#07484E</color>
+    <color name="material800Green">#33054D</color>
+    <color name="material850Green">#042106</color>
+    <color name="material900Green">#0B136E</color>
+
+</resources>

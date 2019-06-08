@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Production">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="#9ed1fa"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="3dp">
+
+    <ImageView
+        android:id="@+id/fruits"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/material100Green"
+        android:onClick="getFruits"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fruits" />
+
+    <TextView
+        android:id="@+id/english_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/bg1"
+        android:gravity="center"
+        android:text=" Fruits (फल) "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+</android.support.v7.widget.CardView>
+
+<android.support.v7.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:id="@+id/card2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="4dp"
+android:background="#9ed1fa"
+card_view:cardUseCompatPadding="true"
+card_view:cardElevation="4dp"
+card_view:cardCornerRadius="3dp">
+
+    <ImageView
+        android:id="@+id/crops"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:onClick="getCrops"
+        android:scaleType="centerCrop"
+        android:src="@drawable/crops" />
+
+    <TextView
+        android:id="@+id/english_title2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/bg1"
+        android:gravity="center"
+        android:text="Crops (फ़सल)"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+</android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
