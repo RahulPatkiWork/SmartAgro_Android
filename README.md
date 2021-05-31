@@ -2,6 +2,8 @@
 
 **This is the android module of SmartAgro which consolidates all other modules, web apps, guide.**
 
+**This was a POC project for my final year & the android code is not updated / maintained . Further, I observed that my Paypal test account has also expired - so the test  payment module may fail. This can be resolved by simple changes**
+
 Scope of this repository:
 This repository has code for android application POC which has been deployed on PlayStore.
   Android :
